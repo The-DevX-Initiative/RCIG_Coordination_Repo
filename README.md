@@ -21,4 +21,9 @@ Our mission is to foster a robust Rust cryptography ecosystem:
 - Provide overall direction for cryptography in Rust by forstering collaboration on an interoperable cryptographic ecosystem
 - Act as a resource for answering questions about the use of cryptography in Rust projects
 
+Note that this is a new group and figuring out its exact purpose is a work-in-progress.
+As we figure out a governance process we will be revising our mission statement and
+hopefully publishing a [vision document].
+
 [issue tracker]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues
+[vision document]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/4
