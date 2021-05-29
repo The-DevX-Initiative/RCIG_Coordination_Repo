@@ -1,5 +1,4 @@
-# Rust Cryptography Interest Group (RCIG) Coordination Repo
-
+# Rust Cryptography Interest Group (RCIG)
 This repository is the central [issue tracker] used by the RCIG in order to
 coordinate efforts towards promoting cryptography in Rust.
 
