@@ -1,4 +1,7 @@
-# Rust Cryptography Interest Group (RCIG)
+# Rust Cryptography Interest Group (RCIG) [![Zulip Chat][chat-img]][Zulip Chat]
+
+<img src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png" width="100px">
+
 This repository is the central [issue tracker] used by the RCIG in order to
 coordinate efforts towards promoting cryptography in Rust.
 
@@ -26,3 +29,14 @@ hopefully publishing a [vision document].
 
 [issue tracker]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues
 [vision document]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/4
+
+## Join in: chat/discussions
+Come talk to us via the following communication channels:
+
+- [Zulip Chat]
+- [GitHub Discussions]
+
+[Zulip Chat]: https://rcig.zulipchat.com/join/6cao3aznhrsz673zc6pzh2eb/
+[GitHub Discussions]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/discussions
+
+[chat-img]: https://img.shields.io/badge/zulip-join_chat-blue.svg?logo=zulip
