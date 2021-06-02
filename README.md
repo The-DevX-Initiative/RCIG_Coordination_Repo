@@ -36,7 +36,7 @@ Come talk to us via the following communication channels:
 - [Zulip Chat]
 - [GitHub Discussions]
 
-[Zulip Chat]: https://rcig.zulipchat.com/join/6cao3aznhrsz673zc6pzh2eb/
+[Zulip Chat]: https://rcig.zulipchat.com/join/kr6lqdw4x554skbscmjttvhg/
 [GitHub Discussions]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/discussions
 
 [chat-img]: https://img.shields.io/badge/zulip-join_chat-blue.svg?logo=zulip
