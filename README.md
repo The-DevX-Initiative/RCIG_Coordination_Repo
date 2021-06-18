@@ -33,5 +33,5 @@ hopefully publishing a [vision document].
 [issue tracker]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues
 [opening an issue]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/new/choose
 [vision document]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/4
-[Zulip Chat]: https://rcig.zulipchat.com/join/kr6lqdw4x554skbscmjttvhg/
+[Zulip Chat]: https://rcig.zulipchat.com/
 [chat-img]: https://img.shields.io/badge/zulip-join_chat-blue.svg?logo=zulip
