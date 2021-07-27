@@ -9,11 +9,18 @@ If you have any suggestions, questions, or other concerns with this list, please
 [open an issue](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/new?title=Awesome+Rust+Cryptography:+[issue+here])
 and we'll get back to you.
 
-![][audited-badge] badges show libraries have undergone at least one audit by an expert cryptographic auditing firm. Click the badge to view the audit.
+The following badges are used to provide more information about libraries that meet certain criteria.
+
+| Badge               | Description |
+|---------------------|-------------|
+| ![][audited-badge]  | crates that have undergone at least one audit by an expert cryptographic auditing firm. Click the badge to view the audit. |
+| ![][verified-badge] | crates whose correctness has been formally verified or synthesized from formally verified tools. |
 
 Note: libraries in each section are listed in alphabetical order and do *not* indicate an order of preference.
 
 [audited-badge]: https://img.shields.io/badge/audited-success.svg
+[verified-badge]: https://img.shields.io/badge/verified-informational.svg
+
 
 ## High-level Libraries
 
@@ -45,7 +52,7 @@ i.e. network communications.
 These libraries provide omnibus collections of different cryptographic primitives
 contained within a single library.
 
-- [evercrypt-rust](https://github.com/franziskuskiefer/evercrypt-rust) Rust bindings for [evercrypt](https://github.com/project-everest/hacl-star/tree/master/providers/evercrypt), a set of high-performance HACL\*-verified implementations of cryptographic primitives. bindings crate, bringing HACL-verified cryptographic primitives.
+- [evercrypt-rust](https://github.com/franziskuskiefer/evercrypt-rust) ![][verified-badge] Rust bindings for [evercrypt](https://github.com/project-everest/hacl-star/tree/master/providers/evercrypt), a set of high-performance HACL\*-verified implementations of cryptographic primitives. bindings crate, bringing HACL-verified cryptographic primitives.
 
 - [libsm](https://github.com/citahub/libsm) China's Standards of Encryption Algorithms (SM2/3/4).
 
@@ -194,7 +201,7 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [bp256](https://github.com/RustCrypto/elliptic-curves/tree/master/bp256) Brainpool P-256 elliptic curves.
 
-- [fiat-rust](https://github.com/mit-plv/fiat-crypto/tree/master/fiat-rust) Formally verified arithmetic implementations for several elliptic curves and word sizes, extracted to Rust from specifications written using in the Coq theorem prover.
+- [fiat-rust](https://github.com/mit-plv/fiat-crypto/tree/master/fiat-rust) ![][verified-badge] Formally verified arithmetic implementations for several elliptic curves and word sizes, extracted to Rust from specifications written using in the Coq theorem prover.
 
 - [Jubjub](https://github.com/zkcrypto/jubjub) Pure Rust implementation of the Jubjub elliptic curve group and its associated fields.
 
