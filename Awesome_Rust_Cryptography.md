@@ -2,23 +2,24 @@
 
 <img align="right" height="100px" src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
 
-Below is a list of actively maintained, high-quality Rust cryptography libraries compiled by the
-[Rust Cryptography Interest Group (RCIG)](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo).
+Below is a list of actively maintained, high-quality cryptography libraries independently developed by members of the Rust Community.
 
+The list is compiled and curated by by the [Rust Cryptography Interest Group (RCIG)](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo).
 If you have any suggestions, questions, or other concerns with this list, please
 [open an issue](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/new?title=Awesome+Rust+Cryptography:+[issue+here])
 and we'll get back to you.
 
 ![][audited-badge] badges show libraries have undergone at least one audit by an expert cryptographic auditing firm. Click the badge to view the audit.
 
+Note: libraries in each section are listed in alphabetical order and do *not* indicate an order of preference.
+
 [audited-badge]: https://img.shields.io/badge/audited-success.svg
 
 ## High-level Libraries
 
-These libraries function at a very high level and are designed to be easy to
-use correctly.
+These libraries function at a very high level and are designed for simplicity and ease-of-use. They provide integrated key management in addition to providing high-level APIs for algorithms.
 
-- [rage](https://github.com/str4d/rage) Implementation of [age](https://age-encryption.org/)—a simple, secure and modern encryption tool with small explicit keys, no config options, and UNIX-style composability.
+- [rage](https://github.com/str4d/rage) Implementation of [age](https://age-encryption.org/) — a simple, secure and modern encryption tool with small explicit keys, no config options, and UNIX-style composability.
 
 - [signatory](https://github.com/iqlusioninc/crates/tree/main/signatory) High-level digital signature library with support for ECDSA and Ed25519.
 
@@ -200,8 +201,8 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 - [p256](https://github.com/RustCrypto/elliptic-curves/tree/master/p256) Pure Rust implementation of the NIST P-256 elliptic curve (a.k.a. prime256v1, secp256r1).
 
 - [RSA](https://github.com/RustCrypto/RSA)
-  [![](https://img.shields.io/badge/audited-not%20public%20yet-yellow.svg)](https://github.com/RustCrypto/RSA/issues/60)
-  An RSA implementation in pure Rust.
+  [![][audited-badge]](https://delta.chat/assets/1907-otf-deltachat-rpgp-rustrsa-gb-reportv1.pdf)
+  Pure Rust implementation of the RSA algorithm.
 
 - [rust-secp256k1](https://github.com/rust-bitcoin/rust-secp256k1) Rust FFI bindings for Bitcoin Core's secp256k1 library written in C.
 
