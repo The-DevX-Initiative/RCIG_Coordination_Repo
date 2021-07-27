@@ -1,5 +1,7 @@
 # Awesome Rust Cryptography
 
+<img align="right" height="100px" src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
+
 Below is a list of actively maintained, high-quality Rust cryptography libraries compiled by the
 [Rust Cryptography Interest Group (RCIG)](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo).
 
@@ -7,6 +9,9 @@ If you have any suggestions, questions, or other concerns with this list, please
 [open an issue](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/new?title=Awesome+Rust+Cryptography:+[issue+here])
 and we'll get back to you.
 
+![][audited-badge] badges show libraries have undergone at least one audit by an expert cryptographic auditing firm. Click the badge to view the audit.
+
+[audited-badge]: https://img.shields.io/badge/audited-success.svg
 
 ## High-level Libraries
 
@@ -91,15 +96,19 @@ These crates implement individual symmetric cryptography algorithms.
 These are high-level symmetric encryption libraries which ensure both the confidentiality
 and integrity of data.
 
-- [aes-gcm](https://github.com/RustCrypto/AEADs/tree/master/aes-gcm) Pure Rust implementation of the AES-GCM Authenticated Encryption with Associated Data (AEAD) cipher.
-
+- [aes-gcm](https://github.com/RustCrypto/AEADs/tree/master/aes-gcm)
+  [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
+  Pure Rust implementation of the AES-GCM Authenticated Encryption with Associated Data (AEAD) cipher.
+  
 - [aes-gcm-siv](https://github.com/RustCrypto/AEADs/tree/master/aes-gcm-siv) AES-GCM-SIV (RFC 8452) is a state-of-the-art high-performance Authenticated Encryption with Associated Data (AEAD) cipher which also provides nonce reuse misuse resistance.
 
 - [aes-siv](https://github.com/RustCrypto/AEADs/tree/master/aes-siv) AES-SIV Misuse-Resistant Authenticated Encryption Cipher.
 
 - [ccm](https://github.com/RustCrypto/AEADs/tree/master/ccm) Pure Rust implementation of the Counter with CBC-MAC (CCM) mode (RFC 3610): an Authenticated Encryption with Associated Data (AEAD) algorithm generic over block ciphers with block size equal to 128 bits.
 
-- [chacha20poly1305](https://github.com/RustCrypto/AEADs/tree/master/chacha20poly1305) Pure Rust implementation of ChaCha20Poly1305 (RFC 8439): an Authenticated Encryption with Associated Data (AEAD) cipher amenable to fast, constant-time implementations in software.
+- [chacha20poly1305](https://github.com/RustCrypto/AEADs/tree/master/chacha20poly1305)
+  [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
+  Pure Rust implementation of ChaCha20Poly1305 (RFC 8439): an Authenticated Encryption with Associated Data (AEAD) cipher amenable to fast, constant-time implementations in software.
 
 - [deoxys](https://github.com/RustCrypto/AEADs/tree/master/deoxys) Pure Rust implementation of the Deoxys Authenticated Encryption with Associated Data (AEAD) cipher, including the Deoxys-II variant which was selected by the CAESAR competition as the best choice for in-depth security.
 
@@ -111,11 +120,15 @@ Note: most users should use higher-level AEAD encryption algorithms enumerated a
 Crates in this section are low-level "unauthenticated" ciphers which should be wrapped
 up in a higher-level construction prior to use.
 
-- [aes](https://github.com/RustCrypto/block-ciphers/tree/master/aes) Pure Rust implementation of the Advanced Encryption Standard (AES) permutation with optional AES-NI and ARMv8 hardware acceleration.
+- [aes](https://github.com/RustCrypto/block-ciphers/tree/master/aes)
+  [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
+  Pure Rust implementation of the Advanced Encryption Standard (AES) permutation with optional AES-NI and ARMv8 hardware acceleration.
 
 - [block-modes](https://github.com/RustCrypto/block-ciphers/tree/master/block-modes) Generic implementation of block cipher modes of operation, including CBC and ECB modes.
 
-- [chacha20](https://github.com/RustCrypto/stream-ciphers/tree/master/chacha20) Pure Rust implementation of the ChaCha20 Stream Cipher including XChaCha20.
+- [chacha20](https://github.com/RustCrypto/stream-ciphers/tree/master/chacha20)
+  [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
+  Pure Rust implementation of the ChaCha20 Stream Cipher including XChaCha20.
 
 - [ctr](https://github.com/RustCrypto/stream-ciphers/tree/master/ctr) Generic implementations of the Counter Mode (CTR) of operation for block ciphers.
 
@@ -141,7 +154,9 @@ up in a higher-level construction prior to use.
 
 - [SHA-3](https://github.com/RustCrypto/hashes/tree/master/sha3) Pure Rust implementation of the SHA-3 (Keccak) hash function.
 
-- [universal-hashes](https://github.com/RustCrypto/universal-hashes) Collection of Universal Hash Functions written in pure Rust including GHASH, POLYVAL, and Poly1305.
+- [universal-hashes](https://github.com/RustCrypto/universal-hashes)
+  [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
+  Collection of Universal Hash Functions written in pure Rust including GHASH, POLYVAL, and Poly1305.
 
 ### Password Hashing Functions
 
@@ -164,7 +179,9 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 ### Asymmetric Primitives
 
-- [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) A pure-Rust implementation of group operations on the [Ristretto](https://ristretto.group) and Curve25519 elliptic curves.
+- [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)
+  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
+  A pure-Rust implementation of group operations on the [Ristretto](https://ristretto.group) and Curve25519 elliptic curves.
 
 - [BLS12-381](https://github.com/zkcrypto/bls12_381) Implementation of the BLS12-381 pairing-friendly elliptic curve group.
 
@@ -182,7 +199,9 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [p256](https://github.com/RustCrypto/elliptic-curves/tree/master/p256) Pure Rust implementation of the NIST P-256 elliptic curve (a.k.a. prime256v1, secp256r1).
 
-- [RSA](https://github.com/RustCrypto/RSA) An RSA implementation in pure Rust.
+- [RSA](https://github.com/RustCrypto/RSA)
+  [![](https://img.shields.io/badge/audited-not%20public%20yet-yellow.svg)](https://github.com/RustCrypto/RSA/issues/60)
+  An RSA implementation in pure Rust.
 
 - [rust-secp256k1](https://github.com/rust-bitcoin/rust-secp256k1) Rust FFI bindings for Bitcoin Core's secp256k1 library written in C.
 
@@ -196,7 +215,9 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [ed25519](https://github.com/RustCrypto/signatures/tree/master/ed25519) Cross-library compatibility crate for Edwards Digital Signature Algorithm (EdDSA) over Curve25519 as specified in RFC 8032. 
 
-- [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek) Fast and efficient ed25519 key generation, signing, and verification in Rust.
+- [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek)
+  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
+  Fast and efficient ed25519 key generation, signing, and verification in Rust.
 
 - [milagro_bls](https://github.com/sigp/milagro_bls) BLS signatures using the [Apache Milagro](https://github.com/apache/incubator-milagro-crypto-rust) Cryptographic Library.
 
@@ -218,7 +239,9 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [PAKEs](https://github.com/RustCrypto/PAKEs) Collection of Password-Authenticated Key Agreement protocols.
 
-- [x25519-dalek](https://github.com/dalek-cryptography/x25519-dalek) A pure-Rust implementation of x25519 elliptic curve Diffie-Hellman key exchange, with curve operations provided by [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek).
+- [x25519-dalek](https://github.com/dalek-cryptography/x25519-dalek)
+  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
+  Pure-Rust implementation of x25519 elliptic curve Diffie-Hellman key exchange, with curve operations provided by [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek).
 
 ### Threshold & Multiparty Signatures
 
@@ -289,7 +312,9 @@ These libraries can be used to create proof statements which do not reveal what 
 
 - [bellperson](https://github.com/filecoin-project/bellperson) Bellman fork with GPU parallel acceleration for FFT and Multiexponentation subroutines in the Groth16 prover.
 
-- [bulletproofs](https://github.com/dalek-cryptography/bulletproofs) Pure-Rust implementation of [Bulletproofs](https://crypto.stanford.edu/bulletproofs/) using [Ristretto](https://ristretto.group).
+- [bulletproofs](https://github.com/dalek-cryptography/bulletproofs)
+  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
+  Pure-Rust implementation of [Bulletproofs](https://crypto.stanford.edu/bulletproofs/) using [Ristretto](https://ristretto.group).
 
 - [bulletproof](https://github.com/KZen-networks/bulletproofs) Implements [Bulletproofs+](https://eprint.iacr.org/2020/735.pdf) and [Bulletproofs](https://eprint.iacr.org/2017/1066.pdf) aggregated range proofs with multi-exponent verification.
 
@@ -340,7 +365,9 @@ These libraries can be used to harden cryptographic algorithms against attacks.
 
 ### Constant-Time Code
 
-- [subtle](https://github.com/dalek-cryptography/subtle) Pure-Rust traits and utilities for constant-time cryptographic implementations.
+- [subtle](https://github.com/dalek-cryptography/subtle)
+  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
+  Pure-Rust traits and utilities for constant-time cryptographic implementations.
 
 ### Protecting Secrets in Memory
 
