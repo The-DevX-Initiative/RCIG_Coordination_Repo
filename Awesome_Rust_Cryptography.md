@@ -31,7 +31,9 @@ These libraries function at a very high level and are designed for simplicity an
 These libraries implement protocols that are designed to protect data-in-transit
 i.e. network communications.
 
-- [rustls](https://github.com/ctz/rustls) Modern SSL/TLS library in Rust.
+- [rustls](https://github.com/ctz/rustls)
+  [![][audited-badge]](https://cure53.de/pentest-report_rustls.pdf)
+  Modern SSL/TLS library in Rust.
 
 - [snow](https://github.com/mcginty/snow) Pure Rust implementation of Trevor Perrin's [Noise Protocol](https://noiseprotocol.org).
 
@@ -49,7 +51,9 @@ contained within a single library.
 
 - [orion](https://github.com/brycx/orion) Collection of usable, easy and safe pure-Rust cryptographic primitives.
 
-- [ring](https://github.com/briansmith/ring) Collection of cryptographic primitives, written in pure Rust. _ring_ is focused on the implementation, testing, and optimization of a core set of cryptographic operations exposed via an easy-to-use (and hard-to-misuse) API.
+- [ring](https://github.com/briansmith/ring)
+  [![][audited-badge]](https://cure53.de/pentest-report_rustls.pdf)
+  Collection of cryptographic primitives, written in pure Rust. _ring_ is focused on the implementation, testing, and optimization of a core set of cryptographic operations exposed via an easy-to-use (and hard-to-misuse) API.
 
 - [sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) Type-safe efficient Rust bindings to [libsodium](https://libsodium.org).
 
