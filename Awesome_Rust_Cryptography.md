@@ -9,7 +9,7 @@ If you have any suggestions, questions, or other concerns with this list, please
 [open an issue](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/new?title=Awesome+Rust+Cryptography:+[issue+here])
 and we'll get back to you.
 
-The following badges are used to provide more information about libraries that meet certain criteria.
+The following badges are used to provide more information about libraries that meet certain criteria:
 
 | Badge               | Description |
 |---------------------|-------------|
