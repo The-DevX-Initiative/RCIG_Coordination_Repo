@@ -74,9 +74,9 @@ primitives and implementations.
 
 - [aead](https://github.com/RustCrypto/traits/tree/master/aead) Authenticated Encryption with Additional Data (AEAD) cipher traits.
   
-- [ark-ec](https://github.com/arkworks-rs/algebra/tree/master/ec) Elliptic curve traits as used by the Ark Ecosystem.
+- [ark-ec](https://github.com/arkworks-rs/algebra/tree/master/ec) Elliptic curve traits as used by the [`arkworks` ecosystem](arkworks.rs).
 
-- [ark-ff](https://github.com/arkworks-rs/algebra/tree/master/ff) Finite field traits as used by the Ark Ecosystem.
+- [ark-ff](https://github.com/arkworks-rs/algebra/tree/master/ff) Finite field traits as used by the [`arkworks` ecosystem](arkworks.rs).
 
 - [cipher](https://github.com/RustCrypto/traits/tree/master/cipher) Block cipher and stream cipher traits.
 
@@ -201,6 +201,9 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [bp256](https://github.com/RustCrypto/elliptic-curves/tree/master/bp256) Brainpool P-256 elliptic curves.
 
+- [`ark-curves`](https://github.com/arkworks-rs/curves) Implementation of a number of popular elliptic curves.
+
+
 - [fiat-rust](https://github.com/mit-plv/fiat-crypto/tree/master/fiat-rust) ![][verified-badge] Formally verified arithmetic implementations for several elliptic curves and word sizes, extracted to Rust from specifications written using in the Coq theorem prover.
 
 - [Jubjub](https://github.com/zkcrypto/jubjub) Pure Rust implementation of the Jubjub elliptic curve group and its associated fields.
@@ -317,7 +320,7 @@ These libraries can be used to generate cryptographically secure random data.
 
 These libraries can be used to create proof statements which do not reveal what is being proved.
 
-- [arkworks-rs](https://github.com/arkworks-rs) An ecosystem for developing and programming with zkSNARKs.
+- [arkworks](https://github.com/arkworks-rs) An ecosystem for developing and programming with zkSNARKs.
 
 - [bellman](https://github.com/zkcrypto/bellman) A crate for building zk-SNARK circuits.
 
@@ -342,6 +345,8 @@ These libraries can be used to create proof statements which do not reveal what 
 - [ZoKrates](https://github.com/Zokrates/ZoKrates) A toolbox for zkSNARKs on Ethereum.
 
 - [zkp](https://github.com/zkcrypto/zkp) Macro-based zero-knowledge proof compiler for Schnorr proofs.
+
+- [winterfell](https://github.com/novifinancial/winterfell/) A distributed STARK prover.
 
 
 ## Secure Multiparty Computation
