@@ -302,6 +302,7 @@ These libraries provide host-side drivers for cryptographic hardware devices (e.
 
 These libraries are designed to be secure against hypothetical future attacks by large quantum computers.
 
+- [oqs](https://github.com/open-quantum-safe/liboqs-rust) Wrapper around Open-Quantum-Safe's liboqs cryptographic library.
 - [pqcrypto](https://github.com/rustpq/pqcrypto) FFI bindings to quantum-safe cryptographic libraries.
 
 
