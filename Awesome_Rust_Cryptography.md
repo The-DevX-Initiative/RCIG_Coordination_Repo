@@ -355,6 +355,13 @@ These libraries allow several participants to collectively perform a computation
 - [white-city](https://github.com/KZen-networks/white-city) API to integrate distributed network for secure computation protocols.
 
 
+## Fully Homomorphic Encryption
+
+These libraries allow to perform secure computation, e.g. computations over encrypted data.
+
+- [concrete](https://github.com/zama-ai/concrete) Rust implementation of various FHE operations based on the TFHE scheme.
+
+
 ## Format Decoders/Encoders
 
 These libraries implement parsers and serializers for various cryptography-related formats.
