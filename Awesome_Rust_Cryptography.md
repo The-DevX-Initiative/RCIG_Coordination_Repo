@@ -2,6 +2,8 @@
 
 <img align="right" height="100px" src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
 
+- Short URL for this page: https://cryptography.rs
+
 Below is a list of actively maintained, high-quality cryptography libraries independently developed by members of the Rust Community.
 
 The list is compiled and curated by by the [Rust Cryptography Interest Group (RCIG)](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo).
