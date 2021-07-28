@@ -58,9 +58,9 @@ contained within a single library.
 
 - [orion](https://github.com/brycx/orion) Collection of usable, easy and safe pure-Rust cryptographic primitives.
 
-- [ring](https://github.com/briansmith/ring)
+- [*ring*](https://github.com/briansmith/ring)
   [![][audited-badge]](https://cure53.de/pentest-report_rustls.pdf)
-  Collection of cryptographic primitives, written in pure Rust. _ring_ is focused on the implementation, testing, and optimization of a core set of cryptographic operations exposed via an easy-to-use (and hard-to-misuse) API.
+  focused on the implementation, testing, and optimization of a core set of cryptographic operations exposed via an easy-to-use (and hard-to-misuse) API. *ring* exposes a Rust API and is written in a hybrid of Rust, C, and assembly language.
 
 - [sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) Type-safe efficient Rust bindings to [libsodium](https://libsodium.org).
 
