@@ -362,6 +362,8 @@ These libraries implement parsers and serializers for various cryptography-relat
 
 - [der](https://github.com/RustCrypto/utils/tree/master/der) Cryptography-oriented ASN.1 DER decoder/encoder with `no_std` support.
 
+- [rasn](https://github.com/XAMPPRocky) A `no_std` ASN.1 codec framework (like serde but for ASN.1). Supports the following formats: BER, CER, DER.
+
 - [pem-rfc7468](https://github.com/RustCrypto/utils/tree/master/pem-rfc7468) Constant-time implementation of the strict PEM encoding rules for PKIX, PKCS, and CMS Structures.
 
 - [pkcs1](https://github.com/RustCrypto/utils/tree/master/pkcs1) Pure Rust implementation of Public-Key Cryptography Standards #1: RSA Cryptography Specifications Version 2.2 (RFC 8017).
