@@ -193,6 +193,8 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 ### Asymmetric Primitives
 
+- [`ark-curves`](https://github.com/arkworks-rs/curves) Implementation of a number of popular elliptic curves.
+
 - [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)
   [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
   A pure-Rust implementation of group operations on the [Ristretto](https://ristretto.group) and Curve25519 elliptic curves.
@@ -202,9 +204,6 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 - [bn](https://github.com/paritytech/bn) Pairing cryptography library written in pure Rust, making use of the Barreto-Naehrig (BN) curve construction.
 
 - [bp256](https://github.com/RustCrypto/elliptic-curves/tree/master/bp256) Brainpool P-256 elliptic curves.
-
-- [`ark-curves`](https://github.com/arkworks-rs/curves) Implementation of a number of popular elliptic curves.
-
 
 - [fiat-rust](https://github.com/mit-plv/fiat-crypto/tree/master/fiat-rust) ![][verified-badge] Formally verified arithmetic implementations for several elliptic curves and word sizes, extracted to Rust from specifications written using in the Coq theorem prover.
 
@@ -285,9 +284,10 @@ These libraries are FFI bindings to OS platforms and commonly used cryptography 
   
 - [openssl](https://github.com/sfackler/rust-openssl) OpenSSL FFI bindings for the Rust programming language.
 
+- [schannel](https://github.com/steffengy/schannel-rs) Rust bindings to the Windows SChannel APIs providing TLS client and server functionality.
+
 - [security-framework](https://github.com/kornelski/rust-security-framework) Bindings to the Apple's Security.framework. Allows use of TLS and Keychain from Rust.
 
-- [schannel](https://github.com/steffengy/schannel-rs) Rust bindings to the Windows SChannel APIs providing TLS client and server functionality.
 
 
 ## Cryptographic Hardware
@@ -308,6 +308,7 @@ These libraries provide host-side drivers for cryptographic hardware devices (e.
 These libraries are designed to be secure against hypothetical future attacks by large quantum computers.
 
 - [oqs](https://github.com/open-quantum-safe/liboqs-rust) Wrapper around Open-Quantum-Safe's liboqs cryptographic library.
+
 - [pqcrypto](https://github.com/rustpq/pqcrypto) FFI bindings to quantum-safe cryptographic libraries.
 
 
@@ -344,11 +345,11 @@ These libraries can be used to create proof statements which do not reveal what 
 
 - [Spartan](https://github.com/microsoft/Spartan) High-speed zkSNARKs without trusted setup.
 
+- [winterfell](https://github.com/novifinancial/winterfell/) A distributed STARK prover.
+
 - [ZoKrates](https://github.com/Zokrates/ZoKrates) A toolbox for zkSNARKs on Ethereum.
 
 - [zkp](https://github.com/zkcrypto/zkp) Macro-based zero-knowledge proof compiler for Schnorr proofs.
-
-- [winterfell](https://github.com/novifinancial/winterfell/) A distributed STARK prover.
 
 
 ## Secure Multiparty Computation
@@ -377,13 +378,13 @@ These libraries implement parsers and serializers for various cryptography-relat
 
 - [der](https://github.com/RustCrypto/utils/tree/master/der) Cryptography-oriented ASN.1 DER decoder/encoder with `no_std` support.
 
-- [rasn](https://github.com/XAMPPRocky) A `no_std` ASN.1 codec framework (like serde but for ASN.1). Supports the following formats: BER, CER, DER.
-
 - [pem-rfc7468](https://github.com/RustCrypto/utils/tree/master/pem-rfc7468) Constant-time implementation of the strict PEM encoding rules for PKIX, PKCS, and CMS Structures.
 
 - [pkcs1](https://github.com/RustCrypto/utils/tree/master/pkcs1) Pure Rust implementation of Public-Key Cryptography Standards #1: RSA Cryptography Specifications Version 2.2 (RFC 8017).
 
 - [pkcs8](https://github.com/RustCrypto/utils/tree/master/pkcs8) Pure Rust implementation of Public-Key Cryptography Standards #8: Private-Key Information Syntax Specification (RFC 5208).
+
+- [rasn](https://github.com/XAMPPRocky) A `no_std` ASN.1 codec framework (like serde but for ASN.1). Supports the following formats: BER, CER, DER.
 
 - [x509-parser](https://github.com/rusticata/x509-parser) X.509 v3 (RFC5280) parser, implemented with the nom parser combinator framework.
 
