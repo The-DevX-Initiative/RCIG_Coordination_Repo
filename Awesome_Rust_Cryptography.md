@@ -1,5 +1,3 @@
-# Awesome Rust Cryptography
-
 <img align="right" height="100px" src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
 
 *Short URL for this page: [cryptography.rs](https://cryptography.rs)*
