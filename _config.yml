@@ -1,5 +1,6 @@
+title: Awesome Rust Cryptography
+description: Showcase of notable cryptography libraries developed in Rust
+theme: jekyll-theme-hacker
 include:
   - index.html
   - Awesome_Rust_Cryptography.md
-
-theme: jekyll-theme-hacker
