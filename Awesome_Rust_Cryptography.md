@@ -193,7 +193,7 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 ### Asymmetric Primitives
 
-- [`ark-curves`](https://github.com/arkworks-rs/curves) Implementation of a number of popular elliptic curves.
+- [ark-curves](https://github.com/arkworks-rs/curves) Implementation of a number of popular elliptic curves.
 
 - [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)
   [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
