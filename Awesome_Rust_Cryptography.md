@@ -13,8 +13,8 @@ The following badges are used to provide more information about libraries that m
 
 | Badge               | Description |
 |---------------------|-------------|
-| ![][audited-badge]  | crates that have undergone at least one audit by an expert cryptographic auditing firm. Click the badge to view the audit. |
-| ![][verified-badge] | crates whose correctness has been formally verified or synthesized from formally verified tools. |
+| ![][audited-badge]  | crates with at least one security audit (click to view)  |
+| ![][verified-badge] | crates which have been formally verified |
 
 Note: libraries in each section are listed in alphabetical order and do *not* indicate an order of preference.
 
