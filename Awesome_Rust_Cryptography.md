@@ -66,6 +66,8 @@ contained within a single library.
 
 - [sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) Type-safe efficient Rust bindings to [libsodium](https://libsodium.org).
 
+- [themis](https://github.com/cossacklabs/themis) Cross-platform general purpose crypto library for securing data during authentication, storage, messaging, network exchange, etc.
+
 
 ## Traits for Cryptographic Primitives
 
