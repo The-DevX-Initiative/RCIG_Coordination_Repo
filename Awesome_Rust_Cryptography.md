@@ -16,7 +16,7 @@ The following badges are used to provide more information about libraries that m
 | ![][audited-badge]  | crates with at least one security audit (click to view)  |
 | ![][verified-badge] | crates which have been formally verified |
 
-Note: libraries in each section are listed in alphabetical order and do *not* indicate an order of preference.
+Note: libraries in each section are listed in alphabetical order, *not* order of preference.
 
 [audited-badge]: https://img.shields.io/badge/audited-success.svg
 [verified-badge]: https://img.shields.io/badge/verified-informational.svg
