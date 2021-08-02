@@ -1,1 +1,8 @@
-{% include Awesome_Rust_Cryptography.md %}
+---
+title: Awesome Rust Cryptography
+description: List of actively maintained, high-quality cryptography libraries independently developed by members of the Rust Community
+layout: default
+---
+
+{% capture my_include %}{% include_relative Awesome_Rust_Cryptography.md %}{% endcapture %}
+{{ my_include | markdownify }}
