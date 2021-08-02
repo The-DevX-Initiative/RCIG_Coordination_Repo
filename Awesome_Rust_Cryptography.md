@@ -34,6 +34,8 @@ These libraries function at a very high level and are designed for simplicity an
 
 - [tink-rust](https://github.com/project-oak/tink-rust) Rust port of Google's high-level Tink cryptography library.
 
+- [themis](https://github.com/cossacklabs/themis) Cross-platform general purpose crypto library for securing data during authentication, storage, messaging, network exchange, etc.
+
 
 ## Transport Encryption Libraries
 
