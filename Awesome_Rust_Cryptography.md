@@ -34,8 +34,6 @@ These libraries function at a very high level and are designed for simplicity an
 
 - [tink-rust](https://github.com/project-oak/tink-rust) Rust port of Google's high-level Tink cryptography library.
 
-- [themis](https://github.com/cossacklabs/themis) Cross-platform general purpose crypto library for securing data during authentication, storage, messaging, network exchange, etc.
-
 
 ## Transport Encryption Libraries
 
@@ -67,6 +65,8 @@ contained within a single library.
   focused on the implementation, testing, and optimization of a core set of cryptographic operations exposed via an easy-to-use (and hard-to-misuse) API. *ring* exposes a Rust API and is written in a hybrid of Rust, C, and assembly language.
 
 - [sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) Type-safe efficient Rust bindings to [libsodium](https://libsodium.org).
+
+- [themis](https://github.com/cossacklabs/themis) Cross-platform general purpose crypto library for securing data during authentication, storage, messaging, network exchange, etc.
 
 
 ## Traits for Cryptographic Primitives
