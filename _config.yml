@@ -1,3 +1,5 @@
 include:
   - index.html
   - Awesome_Rust_Cryptography.md
+
+theme: jekyll-theme-tactile
