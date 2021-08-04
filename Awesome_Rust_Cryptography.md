@@ -77,7 +77,7 @@ cryptographic algorithms and protocols which are generic over specific
 primitives and implementations.
 
 - [aead](https://github.com/RustCrypto/traits/tree/master/aead) Authenticated Encryption with Additional Data (AEAD) cipher traits.
-  
+
 - [ark-ec](https://github.com/arkworks-rs/algebra/tree/master/ec) Elliptic curve traits as used by the [`arkworks` ecosystem](arkworks.rs).
 
 - [ark-ff](https://github.com/arkworks-rs/algebra/tree/master/ff) Finite field traits as used by the [`arkworks` ecosystem](arkworks.rs).
@@ -115,7 +115,7 @@ and integrity of data.
 - [aes-gcm](https://github.com/RustCrypto/AEADs/tree/master/aes-gcm)
   [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
   Pure Rust implementation of the AES-GCM Authenticated Encryption with Associated Data (AEAD) cipher.
-  
+
 - [aes-gcm-siv](https://github.com/RustCrypto/AEADs/tree/master/aes-gcm-siv) AES-GCM-SIV (RFC 8452) is a state-of-the-art high-performance Authenticated Encryption with Associated Data (AEAD) cipher which also provides nonce reuse misuse resistance.
 
 - [aes-siv](https://github.com/RustCrypto/AEADs/tree/master/aes-siv) AES-SIV Misuse-Resistant Authenticated Encryption Cipher.
@@ -209,6 +209,9 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [fiat-rust](https://github.com/mit-plv/fiat-crypto/tree/master/fiat-rust) ![][verified-badge] Formally verified arithmetic implementations for several elliptic curves and word sizes, extracted to Rust from specifications written using in the Coq theorem prover.
 
+- [h2c-rust-ref](https://github.com/armfazh/h2c-rust-ref)
+  Pure Rust reference implementation of the hash to curve specification from IETF/CFRG Hash to Curve [document](https://datatracker.ietf.org/doc/draft-irtf-cfrg-hash-to-curve). Contains hashing methods for elliptic curves in Weierstrass, Montgomery, and Twisted Edwards form.
+
 - [Jubjub](https://github.com/zkcrypto/jubjub) Pure Rust implementation of the Jubjub elliptic curve group and its associated fields.
 
 - [k256](https://github.com/RustCrypto/elliptic-curves/tree/master/k256) Pure Rust implementation of the secp256k1 (K-256) elliptic curve using complete formulas based on projective coordinates.
@@ -221,6 +224,9 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
   [![][audited-badge]](https://delta.chat/assets/1907-otf-deltachat-rpgp-rustrsa-gb-reportv1.pdf)
   Pure Rust implementation of the RSA algorithm.
 
+- [redox-ecc](https://github.com/armfazh/redox-ecc)
+  Pure Rust reference implementation of the elliptic curve operations for Weierstrass, Montgomery, and Twisted Edwards curves.
+
 - [rust-secp256k1](https://github.com/rust-bitcoin/rust-secp256k1) Rust FFI bindings for Bitcoin Core's secp256k1 library written in C.
 
 ### Digital Signatures
@@ -231,7 +237,7 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [ecdsa](https://github.com/RustCrypto/signatures/tree/master/ecdsa) Pure Rust implementation of the Elliptic Curve Digital Signature Algorithm (ECDSA) as specified in FIPS 186-4 (Digital Signature Standard).
 
-- [ed25519](https://github.com/RustCrypto/signatures/tree/master/ed25519) Cross-library compatibility crate for Edwards Digital Signature Algorithm (EdDSA) over Curve25519 as specified in RFC 8032. 
+- [ed25519](https://github.com/RustCrypto/signatures/tree/master/ed25519) Cross-library compatibility crate for Edwards Digital Signature Algorithm (EdDSA) over Curve25519 as specified in RFC 8032.
 
 - [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek)
   [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
@@ -283,7 +289,7 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 These libraries are FFI bindings to OS platforms and commonly used cryptography frameworks.
 
 - [native-tls](https://github.com/sfackler/rust-native-tls) An abstraction over platform-specific TLS implementations.
-  
+
 - [openssl](https://github.com/sfackler/rust-openssl) OpenSSL FFI bindings for the Rust programming language.
 
 - [schannel](https://github.com/steffengy/schannel-rs) Rust bindings to the Windows SChannel APIs providing TLS client and server functionality.
@@ -297,7 +303,7 @@ These libraries are FFI bindings to OS platforms and commonly used cryptography 
 These libraries provide host-side drivers for cryptographic hardware devices (e.g. authentication tokens, HSMs).
 
 - [pkcs11](https://github.com/mheese/rust-pkcs11) Rust PKCS#11 Library.
-  
+
 - [solo](https://github.com/solokeys/solo) Solo is an open source security key.
 
 - [yubihsm](https://github.com/iqlusioninc/yubihsm.rs) Pure-Rust client library for YubiHSM 2 devices which implements most the functionality of the libyubihsm C library from Yubico's YubiHSM SDK.
