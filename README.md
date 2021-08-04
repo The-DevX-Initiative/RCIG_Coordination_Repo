@@ -8,6 +8,10 @@ coordinate efforts towards promoting cryptography in Rust.
 ## Join in!
 Come talk with us via [Zulip Chat] or by [opening an issue].
 
+## Projects
+- [Awesome Rust Cryptography]: curated list of  actively maintained,
+  high-quality Rust cryptography libraries.
+
 ## About
 This repository is where the Rust Cryptography Interest Group stores the following:
 
@@ -30,13 +34,9 @@ Note that this is a new group and figuring out its exact purpose is a work-in-pr
 As we figure out a governance process we will be revising our mission statement and
 hopefully publishing a [vision document].
 
-## Projects
-- [Awesome Rust Cryptography] - curated list of  actively maintained,
-  high-quality Rust cryptography libraries.
-
 [issue tracker]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues
 [opening an issue]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/new/choose
 [vision document]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/4
 [Zulip Chat]: https://rcig.zulipchat.com/
 [chat-img]: https://img.shields.io/badge/zulip-join_chat-blue.svg?logo=zulip
-[Awesome Rust Cryptography]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/blob/main/Awesome_Rust_Cryptography.md
+[Awesome Rust Cryptography]: https://cryptography.rs
