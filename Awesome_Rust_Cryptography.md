@@ -46,6 +46,8 @@ i.e. network communications.
 
 - [strobe-rs](https://github.com/rozbb/strobe-rs) Relatively barebones, `no_std` implementation of the [Strobe protocol framework](https://strobe.sourceforge.io/) in pure Rust.
 
+- [OpenMLS](https://github.com/openmls/openmls/) [MLS](https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/) implementation in Rust.
+
 
 ## Collections of Cryptographic Primitives
 
