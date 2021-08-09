@@ -1,6 +1,6 @@
-<img align="right" height="100px" src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
+# Short URL for this page: [cryptography.rs](https://cryptography.rs)
 
-*Short URL for this page: [cryptography.rs](https://cryptography.rs)*
+<img align="right" height="100px" src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
 
 Below is a list of actively maintained, high-quality cryptography libraries independently developed by members of the Rust Community.
 
@@ -21,7 +21,6 @@ Note: libraries in each section are listed in alphabetical order, *not* order of
 [audited-badge]: https://img.shields.io/badge/audited-success.svg
 [verified-badge]: https://img.shields.io/badge/verified-informational.svg
 
-
 ## High-level Libraries
 
 These libraries function at a very high level and are designed for simplicity and ease-of-use. They provide integrated key management in addition to providing high-level APIs for algorithms.
@@ -31,7 +30,6 @@ These libraries function at a very high level and are designed for simplicity an
 - [signatory](https://github.com/iqlusioninc/crates/tree/main/signatory) High-level digital signature library with support for ECDSA and Ed25519.
 
 - [tink-rust](https://github.com/project-oak/tink-rust) Rust port of Google's high-level Tink cryptography library.
-
 
 ## Transport Encryption Libraries
 
@@ -47,7 +45,6 @@ i.e. network communications.
 - [strobe-rs](https://github.com/rozbb/strobe-rs) Relatively barebones, `no_std` implementation of the [Strobe protocol framework](https://strobe.sourceforge.io/) in pure Rust.
 
 - [OpenMLS](https://github.com/openmls/openmls/) [MLS](https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/) implementation in Rust.
-
 
 ## Collections of Cryptographic Primitives
 
@@ -67,7 +64,6 @@ contained within a single library.
 - [sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) Type-safe efficient Rust bindings to [libsodium](https://libsodium.org).
 
 - [themis](https://github.com/cossacklabs/themis) Cross-platform general purpose crypto library for securing data during authentication, storage, messaging, network exchange, etc.
-
 
 ## Traits for Cryptographic Primitives
 
@@ -101,7 +97,6 @@ primitives and implementations.
 - [signature](https://github.com/RustCrypto/traits/tree/master/signature) Digital signature traits.
 
 - [universal-hash](https://github.com/RustCrypto/traits/tree/master/universal-hash) Universal Hash Function (UHF) traits.
-
 
 ## Symmetric Cryptography
 
@@ -187,7 +182,6 @@ up in a higher-level construction prior to use.
 - [rust-argon2](https://github.com/sru-systems/rust-argon2) Rust library for hashing passwords using Argon2, the password-hashing function that won the Password Hashing Competition (PHC).
 
 - [scrypt](https://github.com/RustCrypto/password-hashes/tree/master/scrypt) Pure Rust implementation of the scrypt key derivation function.
-
 
 ## Asymmetric Cryptography
 
@@ -283,7 +277,6 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [schnorrkel](https://github.com/w3f/schnorrkel) Implements Schnorr signature on Ristretto compressed Ed25519 points, as well as related protocols like HDKD, MuSig, and a verifiable random function (VRF).
 
-
 ## Platform / Framework Bindings
 
 These libraries are FFI bindings to OS platforms and commonly used cryptography frameworks.
@@ -295,8 +288,6 @@ These libraries are FFI bindings to OS platforms and commonly used cryptography 
 - [schannel](https://github.com/steffengy/schannel-rs) Rust bindings to the Windows SChannel APIs providing TLS client and server functionality.
 
 - [security-framework](https://github.com/kornelski/rust-security-framework) Bindings to the Apple's Security.framework. Allows use of TLS and Keychain from Rust.
-
-
 
 ## Cryptographic Hardware
 
@@ -310,7 +301,6 @@ These libraries provide host-side drivers for cryptographic hardware devices (e.
 
 - [yubikey](https://github.com/iqlusioninc/yubikey.rs) Pure Rust cross-platform host-side driver for YubiKey devices from Yubico with support for public-key encryption and digital signatures using the Personal Identity Verification (PIV) application.
 
-
 ## Post-Quantum Cryptography
 
 These libraries are designed to be secure against hypothetical future attacks by large quantum computers.
@@ -319,13 +309,11 @@ These libraries are designed to be secure against hypothetical future attacks by
 
 - [pqcrypto](https://github.com/rustpq/pqcrypto) FFI bindings to quantum-safe cryptographic libraries.
 
-
 ## Random Number Generators
 
 These libraries can be used to generate cryptographically secure random data.
 
 - [rand](https://github.com/rust-random/rand) Rust library for random number generation.
-
 
 ## Zero-knowledge Proofs
 
@@ -359,7 +347,6 @@ These libraries can be used to create proof statements which do not reveal what 
 
 - [zkp](https://github.com/zkcrypto/zkp) Macro-based zero-knowledge proof compiler for Schnorr proofs.
 
-
 ## Secure Multiparty Computation
 
 These libraries allow several participants to collectively perform a computation without revealing what is being computed to the participants.
@@ -370,13 +357,11 @@ These libraries allow several participants to collectively perform a computation
 
 - [white-city](https://github.com/KZen-networks/white-city) API to integrate distributed network for secure computation protocols.
 
-
 ## Fully Homomorphic Encryption
 
 These libraries allow to perform secure computation, e.g. computations over encrypted data.
 
 - [concrete](https://github.com/zama-ai/concrete) Rust implementation of various FHE operations based on the TFHE scheme.
-
 
 ## Format Decoders/Encoders
 
@@ -396,7 +381,6 @@ These libraries implement parsers and serializers for various cryptography-relat
 
 - [x509-parser](https://github.com/rusticata/x509-parser) X.509 v3 (RFC5280) parser, implemented with the nom parser combinator framework.
 
-
 ## Defensive Measures
 
 These libraries can be used to harden cryptographic algorithms against attacks.
@@ -415,7 +399,6 @@ These libraries can be used to harden cryptographic algorithms against attacks.
 
 - [zeroize](https://github.com/iqlusioninc/crates/tree/main/zeroize) Securely zero memory while avoiding compiler optimizations.
 
-
 ## Arithmetic
 
 These libraries implement mathematical algorithms potentially interesting for cryptography-related applications.
@@ -427,7 +410,6 @@ These libraries implement mathematical algorithms potentially interesting for cr
 - [num](https://github.com/rust-num/num) Collection of numeric types and traits for Rust. (Bigint).
 
 - [rust-decimal](https://github.com/paupino/rust-decimal) Decimal implementation written in pure Rust suitable for financial calculations that require significant integral and fractional digits with no round-off errors.
-
 
 ## Misc
 

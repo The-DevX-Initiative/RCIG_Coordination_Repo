@@ -6,24 +6,28 @@ This repository is the central [issue tracker] used by the RCIG in order to
 coordinate efforts towards promoting cryptography in Rust.
 
 ## Join in!
+
 Come talk with us via [Zulip Chat] or by [opening an issue].
 
 ## Projects
+
 - [Awesome Rust Cryptography]: curated list of  actively maintained,
   high-quality Rust cryptography libraries.
 
 ## About
+
 This repository is where the Rust Cryptography Interest Group stores the following:
 
 - meeting  minutes from Sync-Up calls
 - open issues based on ongoing discussions
 - suggest follow  up topics of discussion for future sync-up calls
-- be a place where the community  coordinates. 
+- be a place where the community  coordinates.
 
-The aim will be for this repo to evolve an archive and a place where actionable items can be 
-picked up easily by members of the RCIG community. 
+The aim will be for this repo to evolve an archive and a place where actionable items can be
+picked up easily by members of the RCIG community.
 
 ## Mission
+
 Our mission is to foster a robust Rust cryptography ecosystem:
 
 - Create a focal point for discussion and work on Rust cryptography in general
