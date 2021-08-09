@@ -24,7 +24,7 @@ Note: libraries in each section are listed in alphabetical order, *not* order of
 ## Table of Contents
 
 - [High-level Libraries](#high-level-libraries)
-- [Transport Encryption Libraries](#transport.encryption-libraries)
+- [Transport Encryption Libraries](#transport-encryption-libraries)
 - [Collections of Cryptographic Primitives](#collections-of-cryptographic-primitives)
 - [Traits for Cryptographic Primitives](#traits-for-cryptographic-primitives)
 - [Symmetric Cryptography](#symmetric-cryptography)
@@ -38,8 +38,8 @@ Note: libraries in each section are listed in alphabetical order, *not* order of
 - [Fully Homomorphic Encryption](#fully-homomorphic-encryption)
 - [Format Decoders/Encoders](#format-decodersencoders)
 - [Defensive Measures](#defensive-measures)
-- [Arithmetic](#Arithmetic)
-- [Misc](#Misc)
+- [Arithmetic](#arithmetic)
+- [Miscellany](#miscellany)
 
 
 ## High-level Libraries
@@ -476,7 +476,7 @@ These libraries implement mathematical algorithms potentially interesting for cr
 - [rust-decimal](https://github.com/paupino/rust-decimal) Decimal implementation written in pure Rust suitable for financial calculations that require significant integral and fractional digits with no round-off errors.
 
 
-## Misc
+## Miscellany
 
 [up](#Table-of-contents)
 
