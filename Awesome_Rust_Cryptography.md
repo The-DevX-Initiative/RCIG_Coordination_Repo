@@ -23,26 +23,26 @@ Note: libraries in each section are listed in alphabetical order, *not* order of
 
 ## Table of Contents
 
-- High-level Libraries {#High-level_Libraries}
-- Transport Encryption Libraries {#Transport_Encryption_Libraries}
-- Collections of Cryptographic Primitives {#Collections_of_Cryptographic_Primitives}
-- Traits for Cryptographic Primitives {#Traits_for_Cryptographic_Primitives}
-- Symmetric Cryptography {#Symmetric_Cryptography}
-- Asymmetric Cryptography {#Asymmetric_Cryptography}
-- Platform / Framework Bindings {#Platform_/_Framework Bindings}
-- Cryptographic Hardware {#Cryptographic_Hardware}
-- Post-Quantum Cryptography {#Post-Quantum_Cryptography}
-- Random Number Generators {#Random_Number_Generators}
-- Zero-knowledge Proofs {#Zero-knowledge_Proofs}
-- Secure Multiparty Computation {#Secure_Multiparty_Computation}
-- Fully Homomorphic Encryption {#Fully_Homomorphic_Encryption}
-- Format Decoders/Encoders {#Format_Decoders/Encoders}
-- Defensive Measures {#Defensive_Measures}
-- Arithmetic {#Arithmetic}
-- Misc {#Misc}
+- [High-level Libraries] (#High-level_Libraries)
+- [Transport Encryption Libraries] (#Transport_Encryption_Libraries)
+- [Collections of Cryptographic Primitives] (#Collections_of_Cryptographic_Primitives)
+- [Traits for Cryptographic Primitives] (#Traits_for_Cryptographic_Primitives)
+- [Symmetric Cryptography] (#Symmetric_Cryptography)
+- [Asymmetric Cryptography] (#Asymmetric_Cryptography)
+- [Platform / Framework Bindings] (#Platform_/_Framework Bindings)
+- [Cryptographic Hardware] (#Cryptographic_Hardware)
+- [Post-Quantum Cryptography] (#Post-Quantum_Cryptography)
+- [Random Number Generators] (#Random_Number_Generators)
+- [Zero-knowledge Proofs] (#Zero-knowledge_Proofs)
+- [Secure Multiparty Computation] (#Secure_Multiparty_Computation)
+- [Fully Homomorphic Encryption] (#Fully_Homomorphic_Encryption)
+- [Format Decoders/Encoders] (#Format_Decoders/Encoders)
+- [Defensive Measures] (#Defensive_Measures)
+- [Arithmetic] (#Arithmetic)
+- [Misc] (#Misc)
 
 
-## High-level Libraries {#Table_of_Contents}
+## High-level Libraries [top](#Table-of-contents)
 
 These libraries function at a very high level and are designed for simplicity and ease-of-use. They provide integrated key management in addition to providing high-level APIs for algorithms.
 
@@ -52,7 +52,8 @@ These libraries function at a very high level and are designed for simplicity an
 
 - [tink-rust](https://github.com/project-oak/tink-rust) Rust port of Google's high-level Tink cryptography library.
 
-## Transport Encryption Libraries
+
+## Transport Encryption Libraries [top](#Table-of-contents)
 
 These libraries implement protocols that are designed to protect data-in-transit
 i.e. network communications.
@@ -67,7 +68,8 @@ i.e. network communications.
 
 - [OpenMLS](https://github.com/openmls/openmls/) [MLS](https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/) implementation in Rust.
 
-## Collections of Cryptographic Primitives
+
+## Collections of Cryptographic Primitives [top](#Table-of-contents)
 
 These libraries provide omnibus collections of different cryptographic primitives
 contained within a single library.
@@ -86,7 +88,8 @@ contained within a single library.
 
 - [themis](https://github.com/cossacklabs/themis) Cross-platform general purpose crypto library for securing data during authentication, storage, messaging, network exchange, etc.
 
-## Traits for Cryptographic Primitives
+
+## Traits for Cryptographic Primitives [top](#Table-of-contents)
 
 The crates in this section provide trait-based abstractions for different types
 of cryptographic primitives, allowing implementations of higher-level
@@ -119,7 +122,8 @@ primitives and implementations.
 
 - [universal-hash](https://github.com/RustCrypto/traits/tree/master/universal-hash) Universal Hash Function (UHF) traits.
 
-## Symmetric Cryptography
+
+## Symmetric Cryptography [top](#Table-of-contents)
 
 These crates implement individual symmetric cryptography algorithms.
 
@@ -204,7 +208,8 @@ up in a higher-level construction prior to use.
 
 - [scrypt](https://github.com/RustCrypto/password-hashes/tree/master/scrypt) Pure Rust implementation of the scrypt key derivation function.
 
-## Asymmetric Cryptography
+
+## Asymmetric Cryptography [top](#Table-of-contents)
 
 These crates implement individual asymmetric (a.k.a. public key) cryptography algorithms.
 
@@ -298,7 +303,8 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 - [schnorrkel](https://github.com/w3f/schnorrkel) Implements Schnorr signature on Ristretto compressed Ed25519 points, as well as related protocols like HDKD, MuSig, and a verifiable random function (VRF).
 
-## Platform / Framework Bindings
+
+## Platform / Framework Bindings [top](#Table-of-contents)
 
 These libraries are FFI bindings to OS platforms and commonly used cryptography frameworks.
 
@@ -310,7 +316,8 @@ These libraries are FFI bindings to OS platforms and commonly used cryptography 
 
 - [security-framework](https://github.com/kornelski/rust-security-framework) Bindings to the Apple's Security.framework. Allows use of TLS and Keychain from Rust.
 
-## Cryptographic Hardware
+
+## Cryptographic Hardware [top](#Table-of-contents)
 
 These libraries provide host-side drivers for cryptographic hardware devices (e.g. authentication tokens, HSMs).
 
@@ -322,7 +329,8 @@ These libraries provide host-side drivers for cryptographic hardware devices (e.
 
 - [yubikey](https://github.com/iqlusioninc/yubikey.rs) Pure Rust cross-platform host-side driver for YubiKey devices from Yubico with support for public-key encryption and digital signatures using the Personal Identity Verification (PIV) application.
 
-## Post-Quantum Cryptography
+
+## Post-Quantum Cryptography [top](#Table-of-contents)
 
 These libraries are designed to be secure against hypothetical future attacks by large quantum computers.
 
@@ -330,15 +338,13 @@ These libraries are designed to be secure against hypothetical future attacks by
 
 - [pqcrypto](https://github.com/rustpq/pqcrypto) FFI bindings to quantum-safe cryptographic libraries.
 
-## Random Number Generators
 
-These libraries can be used to generate cryptographically secure random data.
+## Random Number Generators [top](#Table-of-contents)
 
 - [rand](https://github.com/rust-random/rand) Rust library for random number generation.
 
-## Zero-knowledge Proofs
 
-These libraries can be used to create proof statements which do not reveal what is being proved.
+## Zero-knowledge Proofs [top](#Table-of-contents)
 
 - [arkworks](https://github.com/arkworks-rs) An ecosystem for developing and programming with zkSNARKs.
 
@@ -368,7 +374,8 @@ These libraries can be used to create proof statements which do not reveal what 
 
 - [zkp](https://github.com/zkcrypto/zkp) Macro-based zero-knowledge proof compiler for Schnorr proofs.
 
-## Secure Multiparty Computation
+
+## Secure Multiparty Computation [top](#Table-of-contents)
 
 These libraries allow several participants to collectively perform a computation without revealing what is being computed to the participants.
 
@@ -378,13 +385,15 @@ These libraries allow several participants to collectively perform a computation
 
 - [white-city](https://github.com/KZen-networks/white-city) API to integrate distributed network for secure computation protocols.
 
-## Fully Homomorphic Encryption
+
+## Fully Homomorphic Encryption [top](#Table-of-contents)
 
 These libraries allow to perform secure computation, e.g. computations over encrypted data.
 
 - [concrete](https://github.com/zama-ai/concrete) Rust implementation of various FHE operations based on the TFHE scheme.
 
-## Format Decoders/Encoders
+
+## Format Decoders/Encoders [top](#Table-of-contents)
 
 These libraries implement parsers and serializers for various cryptography-related formats.
 
@@ -402,7 +411,8 @@ These libraries implement parsers and serializers for various cryptography-relat
 
 - [x509-parser](https://github.com/rusticata/x509-parser) X.509 v3 (RFC5280) parser, implemented with the nom parser combinator framework.
 
-## Defensive Measures
+
+## Defensive Measures [top](#Table-of-contents)
 
 These libraries can be used to harden cryptographic algorithms against attacks.
 
@@ -420,7 +430,8 @@ These libraries can be used to harden cryptographic algorithms against attacks.
 
 - [zeroize](https://github.com/iqlusioninc/crates/tree/main/zeroize) Securely zero memory while avoiding compiler optimizations.
 
-## Arithmetic
+
+## Arithmetic [top](#Table-of-contents)
 
 These libraries implement mathematical algorithms potentially interesting for cryptography-related applications.
 
@@ -432,7 +443,8 @@ These libraries implement mathematical algorithms potentially interesting for cr
 
 - [rust-decimal](https://github.com/paupino/rust-decimal) Decimal implementation written in pure Rust suitable for financial calculations that require significant integral and fractional digits with no round-off errors.
 
-## Misc
+
+## Misc [top](#Table-of-contents)
 
 Other libraries which don't fall into the categories listed above.
 
