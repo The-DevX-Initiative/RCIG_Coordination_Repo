@@ -160,7 +160,6 @@ primitives and implementations.
  used by the RustCrypto and ZKCrypto ecosystems.
 
 - [pairing](https://github.com/zkcrypto/pairing)
- [![][audited-badge]](https://cybermashup.files.wordpress.com/2018/08/zcash-audit.pdf)
  Pairing-friendly curve traits as used by the ZKCrypto ecosystem.
 
 - [password-hash](https://github.com/RustCrypto/traits/tree/master/password-hash)
