@@ -150,7 +150,7 @@ primitives and implementations.
 - [digest](https://github.com/RustCrypto/traits/tree/master/digest)
  Digest/hash algorithm traits.
 
--[elliptic-curve](https://github.com/RustCrypto/traits/tree/master/elliptic-curve)
+- [elliptic-curve](https://github.com/RustCrypto/traits/tree/master/elliptic-curve)
  Elliptic curve traits as used by the RustCrypto ecosystem.
 
 - [ff](https://github.com/zkcrypto/ff) Finite field traits as used by the
@@ -158,6 +158,10 @@ primitives and implementations.
 
 - [group](https://github.com/zkcrypto/group) Elliptic curve group traits as
  used by the RustCrypto and ZKCrypto ecosystems.
+
+- [pairing](https://github.com/zkcrypto/pairing)
+ [![][audited-badge]](https://cybermashup.files.wordpress.com/2018/08/zcash-audit.pdf)
+ Pairing-friendly curve traits as used by the ZKCrypto ecosystem.
 
 - [password-hash](https://github.com/RustCrypto/traits/tree/master/password-hash)
  Password hashing traits and support for the PHC string format.
@@ -315,7 +319,7 @@ algorithms.
  A pure-Rust implementation of group operations on the
  [Ristretto](https://ristretto.group) and Curve25519 elliptic curves.
 
-- [BLS12-381](https://github.com/zkcrypto/bls12_381) Implementation of the
+- [bls12_381](https://github.com/zkcrypto/bls12_381) Implementation of the
  BLS12-381 pairing-friendly elliptic curve group.
 
 - [bn](https://github.com/paritytech/bn) Pairing cryptography library written
@@ -336,7 +340,7 @@ algorithms.
  Contains hashing methods for elliptic curves in Weierstrass, Montgomery,
  and Twisted Edwards form.
 
-- [Jubjub](https://github.com/zkcrypto/jubjub) Pure Rust implementation of
+- [jubjub](https://github.com/zkcrypto/jubjub) Pure Rust implementation of
  the Jubjub elliptic curve group and its associated fields.
 
 - [k256](https://github.com/RustCrypto/elliptic-curves/tree/master/k256) Pure
@@ -349,6 +353,10 @@ algorithms.
 - [p256](https://github.com/RustCrypto/elliptic-curves/tree/master/p256) Pure
  Rust implementation of the NIST P-256 elliptic curve (a.k.a. prime256v1,
  secp256r1).
+
+- [pasta_curves](https://github.com/zcash/pasta_curves/)
+ Rust implementation of the Pallas-Vesta curve cycle for recursive
+ zero-knowledge proofs.
 
 - [RSA](https://github.com/RustCrypto/RSA)
  [![][audited-badge]](https://delta.chat/assets/1907-otf-deltachat-rpgp-rustrsa-gb-reportv1.pdf)
@@ -515,8 +523,10 @@ by large quantum computers.
 - [arkworks](https://github.com/arkworks-rs) An ecosystem for developing and
  programming with zkSNARKs.
 
-- [bellman](https://github.com/zkcrypto/bellman) A crate for building
- zk-SNARK circuits.
+- [bellman](https://github.com/zkcrypto/bellman)
+ [![][audited-badge]](https://cybermashup.files.wordpress.com/2018/08/zcash-audit.pdf)
+ [![][audited-badge]](https://raw.githubusercontent.com/QED-it/sapling-audit/master/sapling-audit-report.pdf)
+ A crate for building zk-SNARK circuits.
 
 - [bellman-ce](https://github.com/matter-labs/bellman) Bellman fork with
  support for Ethereum's BN256.
