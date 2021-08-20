@@ -523,8 +523,8 @@ by large quantum computers.
  programming with zkSNARKs.
 
 - [bellman](https://github.com/zkcrypto/bellman)
- [![][audited-badge]](https://cybermashup.files.wordpress.com/2018/08/zcash-audit.pdf)
- [![][audited-badge]](https://raw.githubusercontent.com/QED-it/sapling-audit/master/sapling-audit-report.pdf)
+ [![](https://img.shields.io/badge/1-audited-success.svg)](https://cybermashup.files.wordpress.com/2018/08/zcash-audit.pdf)
+ [![](https://img.shields.io/badge/2-audited-success.svg)](https://raw.githubusercontent.com/QED-it/sapling-audit/master/sapling-audit-report.pdf)
  A crate for building zk-SNARK circuits.
 
 - [bellman-ce](https://github.com/matter-labs/bellman) Bellman fork with
