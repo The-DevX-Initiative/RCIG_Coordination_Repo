@@ -44,7 +44,7 @@ Note: libraries in each section are listed in alphabetical order, *not* order of
 
 ## High-level Libraries
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries function at a very high level and are designed for simplicity and ease-of-use. They provide integrated key management in addition to providing high-level APIs for algorithms.
 
@@ -57,7 +57,7 @@ These libraries function at a very high level and are designed for simplicity an
 
 ## Transport Encryption Libraries
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries implement protocols that are designed to protect data-in-transit
 i.e. network communications.
@@ -75,7 +75,7 @@ i.e. network communications.
 
 ## Collections of Cryptographic Primitives
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries provide omnibus collections of different cryptographic primitives
 contained within a single library.
@@ -97,7 +97,7 @@ contained within a single library.
 
 ## Traits for Cryptographic Primitives
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 The crates in this section provide trait-based abstractions for different types
 of cryptographic primitives, allowing implementations of higher-level
@@ -133,7 +133,7 @@ primitives and implementations.
 
 ## Symmetric Cryptography
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These crates implement individual symmetric cryptography algorithms.
 
@@ -221,7 +221,7 @@ up in a higher-level construction prior to use.
 
 ## Asymmetric Cryptography
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These crates implement individual asymmetric (a.k.a. public key) cryptography algorithms.
 
@@ -318,7 +318,7 @@ These crates implement individual asymmetric (a.k.a. public key) cryptography al
 
 ## Platform / Framework Bindings
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries are FFI bindings to OS platforms and commonly used cryptography frameworks.
 
@@ -333,7 +333,7 @@ These libraries are FFI bindings to OS platforms and commonly used cryptography 
 
 ## Cryptographic Hardware
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries provide host-side drivers for cryptographic hardware devices (e.g. authentication tokens, HSMs).
 
@@ -348,7 +348,7 @@ These libraries provide host-side drivers for cryptographic hardware devices (e.
 
 ## Post-Quantum Cryptography
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries are designed to be secure against hypothetical future attacks by large quantum computers.
 
@@ -359,14 +359,14 @@ These libraries are designed to be secure against hypothetical future attacks by
 
 ## Random Number Generators
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 - [rand](https://github.com/rust-random/rand) Rust library for random number generation.
 
 
 ## Zero-knowledge Proofs
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 - [arkworks](https://github.com/arkworks-rs) An ecosystem for developing and programming with zkSNARKs.
 
@@ -399,7 +399,7 @@ These libraries are designed to be secure against hypothetical future attacks by
 
 ## Secure Multiparty Computation
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries allow several participants to collectively perform a computation without revealing what is being computed to the participants.
 
@@ -412,7 +412,7 @@ These libraries allow several participants to collectively perform a computation
 
 ## Fully Homomorphic Encryption
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries allow to perform secure computation, e.g. computations over encrypted data.
 
@@ -421,7 +421,7 @@ These libraries allow to perform secure computation, e.g. computations over encr
 
 ## Format Decoders/Encoders
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries implement parsers and serializers for various cryptography-related formats.
 
@@ -442,7 +442,7 @@ These libraries implement parsers and serializers for various cryptography-relat
 
 ## Defensive Measures
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries can be used to harden cryptographic algorithms against attacks.
 
@@ -463,7 +463,7 @@ These libraries can be used to harden cryptographic algorithms against attacks.
 
 ## Arithmetic
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries implement mathematical algorithms potentially interesting for cryptography-related applications.
 
@@ -478,7 +478,7 @@ These libraries implement mathematical algorithms potentially interesting for cr
 
 ## Miscellany
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 Other libraries which don't fall into the categories listed above.
 
