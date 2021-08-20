@@ -48,7 +48,7 @@ of preference.
 
 ## High-level Libraries
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries function at a very high level and are designed for simplicity
 and ease-of-use. They provide integrated key management in addition to
@@ -67,7 +67,7 @@ providing high-level APIs for algorithms.
 
 ## Transport Encryption Libraries
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries implement protocols that are designed to protect
 data-in-transit; i.e., network communications.
@@ -89,7 +89,7 @@ data-in-transit; i.e., network communications.
 
 ## Collections of Cryptographic Primitives
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries provide omnibus collections of different cryptographic
 primitives contained within a single library.
@@ -122,7 +122,7 @@ primitives contained within a single library.
 
 ## Traits for Cryptographic Primitives
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 The crates in this section provide trait-based abstractions for different types
 of cryptographic primitives, allowing implementations of higher-level
@@ -170,7 +170,7 @@ primitives and implementations.
 
 ## Symmetric Cryptography
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These crates implement individual symmetric cryptography algorithms.
 
@@ -300,7 +300,7 @@ use.
 
 ## Asymmetric Cryptography
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These crates implement individual asymmetric (a.k.a. public key) cryptography
 algorithms.
@@ -449,7 +449,7 @@ algorithms.
 
 ## Platform / Framework Bindings
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries are FFI bindings to OS platforms and commonly used
 cryptography frameworks.
@@ -469,7 +469,7 @@ cryptography frameworks.
 
 ## Cryptographic Hardware
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries provide host-side drivers for cryptographic hardware devices
 (e.g. authentication tokens, HSMs).
@@ -490,7 +490,7 @@ These libraries provide host-side drivers for cryptographic hardware devices
 
 ## Post-Quantum Cryptography
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries are designed to be secure against hypothetical future attacks
 by large quantum computers.
@@ -503,14 +503,14 @@ by large quantum computers.
 
 ## Random Number Generators
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 - [rand](https://github.com/rust-random/rand) Rust library for random number
  generation.
 
 ## Zero-knowledge Proofs
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 - [arkworks](https://github.com/arkworks-rs) An ecosystem for developing and
  programming with zkSNARKs.
@@ -560,7 +560,7 @@ by large quantum computers.
 
 ## Secure Multiparty Computation
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries allow several participants to collectively perform a
 computation without revealing what is being computed to the participants.
@@ -576,7 +576,7 @@ computation without revealing what is being computed to the participants.
 
 ## Fully Homomorphic Encryption
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries allow to perform secure computation, e.g. computations over
 encrypted data.
@@ -586,7 +586,7 @@ encrypted data.
 
 ## Format Decoders/Encoders
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries implement parsers and serializers for various
 cryptography-related formats.
@@ -617,7 +617,7 @@ cryptography-related formats.
 
 ## Defensive Measures
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries can be used to harden cryptographic algorithms against
 attacks.
@@ -640,7 +640,7 @@ attacks.
 
 ## Arithmetic
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 These libraries implement mathematical algorithms potentially interesting for
 cryptography-related applications.
@@ -662,7 +662,7 @@ cryptography-related applications.
 
 ## Miscellany
 
-[up](#Table-of-contents)
+[up](#table-of-contents)
 
 Other libraries which don't fall into the categories listed above.
 
