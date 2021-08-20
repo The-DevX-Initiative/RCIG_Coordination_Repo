@@ -11,8 +11,8 @@ Come talk with us via [Zulip Chat] or by [opening an issue].
 
 ## Projects
 
-- [Awesome Rust Cryptography]: curated list of  actively maintained,
-  high-quality Rust cryptography libraries.
+- [Awesome Rust Cryptography][cryptography.rs] (a.k.a. [cryptography.rs]):
+  curated list of  actively maintained, high-quality Rust cryptography libraries.
 
 ## About
 
@@ -43,4 +43,4 @@ hopefully publishing a [vision document].
 [vision document]: https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo/issues/4
 [Zulip Chat]: https://rcig.zulipchat.com/
 [chat-img]: https://img.shields.io/badge/zulip-join_chat-blue.svg?logo=zulip
-[Awesome Rust Cryptography]: https://cryptography.rs
+[cryptography.rs]: https://cryptography.rs
