@@ -669,6 +669,9 @@ cryptography-related applications.
  implementation written in pure Rust suitable for financial calculations that
  require significant integral and fractional digits with no round-off errors.
 
+- [secret-integers](https://crates.io/crates/secret-integers)
+  Integer wrapper types that guarantee constant-time operations only.
+
 ## Miscellany
 
 [up](#table-of-contents)
