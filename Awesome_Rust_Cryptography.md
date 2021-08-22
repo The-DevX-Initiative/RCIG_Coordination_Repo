@@ -481,10 +481,20 @@ cryptography frameworks.
 These libraries provide host-side drivers for cryptographic hardware devices
 (e.g. authentication tokens, HSMs).
 
+- [cryptoki](https://github.com/parallaxsecond/rust-cryptoki) Rust-native
+ PKCS#11 library.
+
 - [pkcs11](https://github.com/mheese/rust-pkcs11) Rust PKCS#11 Library.
+
+- [rust-cryptoauthlib](https://github.com/PelionIoT/rust-cryptoauthlib/)
+ Rust library for interfacing with ATECCx08a devices.
 
 - [solo](https://github.com/solokeys/solo) Solo is an open source security
  key.
+
+- [tss-esapi](https://github.com/parallaxsecond/rust-tss-esapi) Rust-native
+ library for interfacing with TPM 2.0 devices via the TCG Enhanced System API
+ (ESAPI).
 
 - [yubihsm](https://github.com/iqlusioninc/yubihsm.rs) Pure-Rust client
  library for YubiHSM 2 devices which implements most the functionality of the
