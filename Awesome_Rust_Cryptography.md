@@ -289,6 +289,9 @@ use.
  Pure Rust implementation of the Password-Based Key Derivation Function v2
  (PBKDF2).
 
+- [phpass](https://github.com/clausehound/phpass)
+  Pure Rust implementation of the PhPass algorithm used by WordPress.
+
 - [pkcs5](https://github.com/RustCrypto/utils/tree/master/pkcs5) Pure Rust
  implementation of Public-Key Cryptography Standards #5: Password-Based
  Cryptography Specification Version 2.1 (RFC 8018) with support for the scrypt
