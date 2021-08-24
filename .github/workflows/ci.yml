@@ -2,7 +2,7 @@ name: Rust Crypto CI
 
 on: [pull_request, push]
 
-objs:
+jobs:
   check_docs:
     runs-on: ubuntu-latest
     steps:
