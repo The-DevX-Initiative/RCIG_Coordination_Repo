@@ -1,4 +1,4 @@
-name Rust Crypto CI
+name: Rust Crypto CI
 
 on: [pull_request, push]
 
