@@ -1,0 +1,13 @@
+name Rust Crypto CI
+
+on: [pull_request, push]
+
+objs:
+  check_docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: markdown nits
+      run: |
+        sudo gem install mdl
+        mdl -c markdownlint.rb README.md
