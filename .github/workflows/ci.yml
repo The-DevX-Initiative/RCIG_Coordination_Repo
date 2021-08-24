@@ -10,4 +10,4 @@ jobs:
     - name: markdown nits
       run: |
         sudo gem install mdl
-        mdl -c markdownlint.rb README.md
+        mdl -s markdownlint.rb README.md
