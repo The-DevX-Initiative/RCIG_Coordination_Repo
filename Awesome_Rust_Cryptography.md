@@ -87,6 +87,9 @@ data-in-transit; i.e., network communications.
  [MLS](https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/)
  implementation in Rust.
 
+- [webpki](https://github.com/briansmith/webpki) validates Web PKI (TLS/SSL)
+ certificates
+
 ## Collections of Cryptographic Primitives
 
 [up](#table-of-contents)
