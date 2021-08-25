@@ -5,7 +5,7 @@
 Below is a list of actively maintained, high-quality cryptography libraries
 independently developed by members of the Rust Community.
 
-The list is compiled and curated by by the
+The list is compiled and curated by the
 [Rust Cryptography Interest Group (RCIG)](https://github.com/The-DevX-Initiative/RCIG_Coordination_Repo).
 If you have any suggestions, questions, or other concerns with this list,
 please
