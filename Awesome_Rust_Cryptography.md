@@ -464,6 +464,9 @@ algorithms.
 These libraries are FFI bindings to OS platforms and commonly used
 cryptography frameworks.
 
+- [mesalink](https://mesalink.io/) OpenSSL-compatible C library implemented in
+ Rust
+
 - [native-tls](https://github.com/sfackler/rust-native-tls) An abstraction
  over platform-specific TLS implementations.
 
