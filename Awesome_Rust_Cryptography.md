@@ -394,6 +394,9 @@ algorithms.
  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
  Fast and efficient ed25519 key generation, signing, and verification in
  Rust.
+ 
+- [ed25519-zebra](https://github.com/ZcashFoundation/ed25519-zebra)
+ Zcash-flavored Ed25519 signatures for consensus-critical applications.
 
 - [milagro_bls](https://github.com/sigp/milagro_bls) BLS signatures using the
  [Apache Milagro](https://github.com/apache/incubator-milagro-crypto-rust)
