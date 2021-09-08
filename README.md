@@ -2,8 +2,7 @@
 
 <img width="100px"
 src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
-<img width="100px"
-src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/RCIG_Mascot.png">
+
 
 
 
