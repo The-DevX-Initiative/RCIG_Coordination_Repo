@@ -2,8 +2,8 @@
 
 <img width="100px"
 src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/mascot.png">
-
-
+<img align = "right" width="170px"
+src="https://raw.githubusercontent.com/The-DevX-Initiative/RCIG_Coordination_Repo/main/RCIG_Mascot3.png">
 
 
 This repository is the central [issue tracker] used by the RCIG in order to
