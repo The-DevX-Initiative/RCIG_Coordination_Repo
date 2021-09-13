@@ -123,6 +123,9 @@ primitives contained within a single library.
  purpose crypto library for securing data during authentication, storage,
  messaging, network exchange, etc.
 
+- [dryoc](https://github.com/brndnmtthws/dryoc) A pure-Rust, general purpose
+ crypto library that implements libsodium primitives.
+
 ## Traits for Cryptographic Primitives
 
 [up](#table-of-contents)
