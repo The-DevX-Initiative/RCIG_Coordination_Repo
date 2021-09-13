@@ -394,7 +394,7 @@ algorithms.
  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
  Fast and efficient ed25519 key generation, signing, and verification in
  Rust.
- 
+
 - [ed25519-zebra](https://github.com/ZcashFoundation/ed25519-zebra)
  Zcash-flavored Ed25519 signatures for consensus-critical applications.
 
@@ -451,10 +451,11 @@ algorithms.
 - [threshold_crypto](https://github.com/poanetwork/threshold_crypto) A
  pairing-based threshold cryptosystem for collaborative decryption and
  signatures.
- 
+
 - [FROST (on redjubjub)](https://github.com/ZcashFoundation/redjubjub)
-[![][audited-badge]](https://github.com/ZcashFoundation/redjubjub/blob/main/zcash-frost-audit-report-20210323.pdf)
-An implementation of FROST (Flexible Round-Optimized Schnorr Threshold) RedJubjub signatures
+ [![][audited-badge]](https://github.com/ZcashFoundation/redjubjub/blob/main/zcash-frost-audit-report-20210323.pdf)
+ An implementation of FROST (Flexible Round-Optimized Schnorr Threshold)
+ RedJubjub signatures.
 
 ### Verifiable Delay Functions (VDFs)
 
