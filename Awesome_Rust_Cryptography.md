@@ -545,6 +545,9 @@ by large quantum computers.
 - [rand](https://github.com/rust-random/rand) Rust library for random number
  generation.
 
+- [getrandom](https://docs.rs/getrandom/0.2.3/getrandom/) Interfave to the
+ operating system's random number generator.
+
 ## Zero-knowledge Proofs
 
 [up](#table-of-contents)
