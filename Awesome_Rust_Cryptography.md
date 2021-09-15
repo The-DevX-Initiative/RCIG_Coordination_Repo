@@ -298,8 +298,8 @@ use.
 - [phpass](https://github.com/clausehound/phpass)
   Pure Rust implementation of the PhPass algorithm used by WordPress.
 
-- [pkcs5](https://github.com/RustCrypto/utils/tree/master/pkcs5) Pure Rust
- implementation of Public-Key Cryptography Standards #5: Password-Based
+- [pkcs5](https://github.com/RustCrypto/formats/tree/master/pkcs5)
+ Pure Rust implementation of Public-Key Cryptography Standards #5: Password-Based
  Cryptography Specification Version 2.1 (RFC 8018) with support for the scrypt
  and PBKDF2 password-based key derivation functions.
 
@@ -633,25 +633,25 @@ encrypted data.
 These libraries implement parsers and serializers for various
 cryptography-related formats.
 
-- [base64ct](https://github.com/RustCrypto/utils/tree/master/base64ct)
+- [base64ct](https://github.com/RustCrypto/formats/tree/master/base64ct)
  Constant-time Base64 decoder/encoder with `no_std` support.
 
-- [der](https://github.com/RustCrypto/utils/tree/master/der)
+- [der](https://github.com/RustCrypto/formats/tree/master/der)
  Cryptography-oriented ASN.1 DER decoder/encoder with `no_std` support.
 
-- [pem-rfc7468](https://github.com/RustCrypto/utils/tree/master/pem-rfc7468)
+- [pem-rfc7468](https://github.com/RustCrypto/formats/tree/master/pem-rfc7468)
  Constant-time implementation of the strict PEM encoding rules for PKIX, PKCS,
  and CMS Structures.
 
-- [pkcs1](https://github.com/RustCrypto/utils/tree/master/pkcs1) Pure Rust
+- [pkcs1](https://github.com/RustCrypto/formats/tree/master/pkcs1) Pure Rust
  implementation of Public-Key Cryptography Standards #1: RSA Cryptography
  Specifications Version 2.2 (RFC 8017).
 
-- [pkcs8](https://github.com/RustCrypto/utils/tree/master/pkcs8) Pure Rust
+- [pkcs8](https://github.com/RustCrypto/formats/tree/master/pkcs8) Pure Rust
  implementation of Public-Key Cryptography Standards #8: Private-Key
  Information Syntax Specification (RFC 5208).
 
-- [rasn](https://github.com/XAMPPRocky) A `no_std` ASN.1 codec framework
+- [rasn](https://github.com/XAMPPRocky/rasn) A `no_std` ASN.1 codec framework
  (like serde but for ASN.1). Supports the following formats: BER, CER, DER.
 
 - [x509-parser](https://github.com/rusticata/x509-parser) X.509 v3 (RFC5280)
@@ -687,7 +687,7 @@ attacks.
 These libraries implement mathematical algorithms potentially interesting for
 cryptography-related applications.
 
-- [crypto-bigint](https://github.com/RustCrypto/utils/tree/master/crypto-bigint)
+- [crypto-bigint](https://github.com/RustCrypto/crypto-bigint)
  Cryptography-oriented "bignum" library with constant-time algorithms
  including modular arithmetic, stack-allocated big integers, and `no_std`
  support
