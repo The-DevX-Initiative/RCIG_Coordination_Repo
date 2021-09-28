@@ -589,6 +589,10 @@ by large quantum computers.
 - [OpenZKP](https://github.com/0xProject/OpenZKP) Pure-Rust implementations
  of Zero-Knowledge Proof systems.
 
+- [snarkVM](https://github.com/AleoHQ/snarkVM) A Rust implementation of
+ [Zexe](https://eprint.iacr.org/2018/962.pdf), a model for decentralized private
+ computation using zero-knowledge proofs
+
 - [Spartan](https://github.com/microsoft/Spartan) High-speed zkSNARKs without
  trusted setup.
 
