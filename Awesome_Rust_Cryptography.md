@@ -682,7 +682,7 @@ attacks.
 
 ### Zeroing Memory
 
-- [zeroize](https://github.com/iqlusioninc/crates/tree/main/zeroize) Securely
+- [zeroize](https://github.com/RustCrypto/utils/tree/master/zeroize) Securely
  zero memory while avoiding compiler optimizations.
 
 ## Arithmetic
