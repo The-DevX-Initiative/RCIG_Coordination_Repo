@@ -117,9 +117,6 @@ primitives contained within a single library.
  API. \*ring\* exposes a Rust API and is written in a hybrid of Rust, C, and
  assembly language.
 
-- [sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) Type-safe
- efficient Rust bindings to [libsodium](https://libsodium.org).
-
 - [themis](https://github.com/cossacklabs/themis) Cross-platform general
  purpose crypto library for securing data during authentication, storage,
  messaging, network exchange, etc.
