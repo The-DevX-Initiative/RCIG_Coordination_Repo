@@ -536,6 +536,14 @@ by large quantum computers.
 - [pqcrypto](https://github.com/rustpq/pqcrypto) FFI bindings to quantum-safe
  cryptographic libraries.
 
+- [picnic-bindings](https://github.com/ait-crypto/picnic-bindings-rs) FFI
+  bindings to Picnic library implementating the traits from
+  [signature](https://github.com/RustCrypto/traits/tree/master/signature).
+
+- [pqcrypto-picnic](https://github.com/ait-crypto/pqcrypto-picnic) FFI bindings
+  to Picnic library implementating the traits from
+  [pqcrypto](https://github.com/rustpq/pqcrypto).
+
 ## Random Number Generators
 
 [up](#table-of-contents)
