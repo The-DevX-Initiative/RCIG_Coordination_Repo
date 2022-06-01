@@ -231,7 +231,7 @@ use.
  Pure Rust implementation of the Advanced Encryption Standard (AES)
  permutation with optional AES-NI and ARMv8 hardware acceleration.
 
-- [block-modes](https://github.com/RustCrypto/block-ciphers/tree/master/block-modes)
+- [block-modes](https://github.com/RustCrypto/block-modes)
  Generic implementation of block cipher modes of operation, including CBC and
  ECB modes.
 
