@@ -506,8 +506,6 @@ These libraries provide host-side drivers for cryptographic hardware devices
 - [cryptoki](https://github.com/parallaxsecond/rust-cryptoki) Rust-native
  PKCS#11 library.
 
-- [pkcs11](https://github.com/mheese/rust-pkcs11) Rust PKCS#11 Library.
-
 - [rust-cryptoauthlib](https://github.com/PelionIoT/rust-cryptoauthlib/)
  Rust library for interfacing with ATECCx08a devices.
 
