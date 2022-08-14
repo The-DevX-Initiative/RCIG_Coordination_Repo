@@ -395,11 +395,6 @@ algorithms.
  Cross-library compatibility crate for Edwards Digital Signature Algorithm
  (EdDSA) over Curve25519 as specified in RFC 8032.
 
-- [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek)
- [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
- Fast and efficient ed25519 key generation, signing, and verification in
- Rust.
-
 - [ed25519-zebra](https://github.com/ZcashFoundation/ed25519-zebra)
  Zcash-flavored Ed25519 signatures for consensus-critical applications.
 
