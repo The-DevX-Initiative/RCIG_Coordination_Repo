@@ -391,13 +391,13 @@ algorithms.
  Rust implementation of the Elliptic Curve Digital Signature Algorithm (ECDSA)
  as specified in FIPS 186-4 (Digital Signature Standard).
 
-- [ed25519-compact](https://github.com/jedisct1/rust-ed25519-compact)
- [![][verified-badge]](https://github.com/jedisct1/rust-ed25519-compact/issues/13)
- A compact Ed25519 implementation for Rust, no_std / WebAssembly friendly
-
 - [ed25519](https://github.com/RustCrypto/signatures/tree/master/ed25519)
  Cross-library compatibility crate for Edwards Digital Signature Algorithm
  (EdDSA) over Curve25519 as specified in RFC 8032.
+
+- [ed25519-compact](https://github.com/jedisct1/rust-ed25519-compact)
+ [![][verified-badge]](https://github.com/jedisct1/rust-ed25519-compact/issues/13)
+ A compact Ed25519 implementation for Rust, no_std / WebAssembly friendly
 
 - [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek)
  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
