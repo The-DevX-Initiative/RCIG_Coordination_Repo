@@ -243,7 +243,7 @@ use.
  [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
  Pure Rust implementation of the ChaCha20 Stream Cipher including XChaCha20.
 
-- [ctr](https://github.com/RustCrypto/stream-ciphers/tree/master/ctr) Generic
+- [ctr](https://github.com/RustCrypto/block-modes/tree/master/ctr) Generic
  implementations of the Counter Mode (CTR) of operation for block ciphers.
 
 - [des](https://github.com/RustCrypto/block-ciphers/tree/master/des)  Data
