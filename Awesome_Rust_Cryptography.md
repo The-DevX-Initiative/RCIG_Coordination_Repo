@@ -641,6 +641,7 @@ encrypted data.
 
 - [concrete](https://github.com/zama-ai/concrete) Rust implementation of
  various FHE operations based on the TFHE scheme.
+- [TFHE-rs](https://github.com/zama-ai/tfhe-rs) Pure Rust implementation of the TFHE scheme for boolean and integers FHE arithmetics.
 
 ## Format Decoders/Encoders
 
