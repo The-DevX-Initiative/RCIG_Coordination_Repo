@@ -199,9 +199,10 @@ confidentiality and integrity of data.
 - [aes-siv](https://github.com/RustCrypto/AEADs/tree/master/aes-siv) AES-SIV
  Misuse-Resistant Authenticated Encryption Cipher.
 
-- [ascon-aead](https://github.com/sebastinas/ascon-aead) Pure Rust implementation
-  of the Ascon Authenticated Encryption with Associated Data (AEAD) cipher,
-  including implementations of the Ascon-128 and Ascon-128a variants.
+- [ascon-aead](https://github.com/RustCrypto/AEADs/tree/master/ascon-aead)
+ Pure Rust implementation of the Ascon Authenticated Encryption with
+ Associated Data (AEAD) cipher, including implementations of the Ascon-128
+ and Ascon-128a variants.
 
 - [ccm](https://github.com/RustCrypto/AEADs/tree/master/ccm) Pure Rust
  implementation of the Counter with CBC-MAC (CCM) mode (RFC 3610): an
