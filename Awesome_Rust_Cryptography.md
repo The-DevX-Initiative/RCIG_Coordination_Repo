@@ -255,6 +255,10 @@ use.
 
 ### Hash Functions and Friends
 
+- [ascon-hash](https://github.com/RustCrypto/hashes/tree/master/ascon-hash)
+ Pure Rust implementation of the Ascon hash and extendable output function
+ (XOF) including the Ascon-128 and Ascon-128a variants.
+
 - [BLAKE2](https://github.com/RustCrypto/hashes/tree/master/blake2) Pure Rust
  implementation of the BLAKE2 hash function family.
 
