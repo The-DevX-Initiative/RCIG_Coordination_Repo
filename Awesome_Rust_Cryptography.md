@@ -358,8 +358,9 @@ algorithms.
 - [jubjub](https://github.com/zkcrypto/jubjub) Pure Rust implementation of
  the Jubjub elliptic curve group and its associated fields.
 
-- [k256](https://github.com/RustCrypto/elliptic-curves/tree/master/k256) Pure
- Rust implementation of the secp256k1 (K-256) elliptic curve using complete
+- [k256](https://github.com/RustCrypto/elliptic-curves/tree/master/k256)
+ [![][audited-badge]](https://research.nccgroup.com/2023/08/30/public-report-entropy-rust-cryptography-review/)
+ Pure Rust implementation of the secp256k1 (K-256) elliptic curve using complete
  formulas based on projective coordinates.
 
 - [libsecp256k1-rs](https://github.com/sorpaas/libsecp256k1-rs) Pure Rust
@@ -710,9 +711,14 @@ These libraries implement mathematical algorithms potentially interesting for
 cryptography-related applications.
 
 - [crypto-bigint](https://github.com/RustCrypto/crypto-bigint)
+ [![][audited-badge]](https://research.nccgroup.com/2023/08/30/public-report-entropy-rust-cryptography-review/)
  Cryptography-oriented "bignum" library with constant-time algorithms
  including modular arithmetic, stack-allocated big integers, and `no_std`
  support
+
+- [crypto-primes](https://github.com/entropyxyz/crypto-primes)
+ [![][audited-badge]](https://research.nccgroup.com/2023/08/30/public-report-entropy-rust-cryptography-review/)
+ A crate for generating random primes and primality testing based on `crypto-bigint` integers.
 
 - [nalgebra](https://github.com/rustsim/nalgebra) Linear algebra library for
  Rust.
