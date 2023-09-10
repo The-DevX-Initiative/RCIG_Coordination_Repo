@@ -405,7 +405,7 @@ algorithms.
  [![][verified-badge]](https://github.com/jedisct1/rust-ed25519-compact/issues/13)
  A compact Ed25519 implementation for Rust, no_std / WebAssembly friendly
 
-- [ed25519-dalek](https://github.com/dalek-cryptography/ed25519-dalek)
+- [ed25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)
  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
  Fast and efficient ed25519 key generation, signing, and verification in
  Rust.
@@ -448,7 +448,7 @@ algorithms.
 - [PAKEs](https://github.com/RustCrypto/PAKEs) Collection of
  Password-Authenticated Key Agreement protocols.
 
-- [x25519-dalek](https://github.com/dalek-cryptography/x25519-dalek)
+- [x25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)
  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
  Pure-Rust implementation of x25519 elliptic curve Diffie-Hellman key
  exchange, with curve operations provided by
