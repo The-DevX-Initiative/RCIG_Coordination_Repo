@@ -448,7 +448,7 @@ algorithms.
 - [PAKEs](https://github.com/RustCrypto/PAKEs) Collection of
  Password-Authenticated Key Agreement protocols.
 
-- [x25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)
+- [x25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/x25519-dalek)
  [![][audited-badge]](https://blog.quarkslab.com/security-audit-of-dalek-libraries.html)
  Pure-Rust implementation of x25519 elliptic curve Diffie-Hellman key
  exchange, with curve operations provided by
