@@ -38,7 +38,7 @@ of preference.
 - [Platform / Framework Bindings](#platform--framework-bindings)
 - [Cryptographic Hardware](#cryptographic-hardware)
 - [Post-Quantum Cryptography](#post-quantum-cryptography)
-- [Random Number Generators](#random-Number-generators)
+- [Random Number Generators](#random-number-generators)
 - [Zero-knowledge Proofs](#zero-knowledge-proofs)
 - [Secure Multiparty Computation](#secure-multiparty-computation)
 - [Fully Homomorphic Encryption](#fully-homomorphic-encryption)
@@ -541,6 +541,11 @@ These libraries provide host-side drivers for cryptographic hardware devices
 
 These libraries are designed to be secure against hypothetical future attacks
 by large quantum computers.
+
+- [ml-kem](https://github.com/RustCrypto/KEMs/tree/master/ml-kem) Pure Rust
+  implementation of the Module-Lattice-Based Key-Encapsulation Mechanism
+  standard (formerly known as Kyber) as described in the FIPS 203 Initial
+  Public Draft.
 
 - [oqs](https://github.com/open-quantum-safe/liboqs-rust) Wrapper around
  Open-Quantum-Safe's liboqs cryptographic library.
