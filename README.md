@@ -35,7 +35,7 @@ picked up easily by members of the RCIG community.
 Our mission is to foster a robust Rust cryptography ecosystem:
 
 - Create a focal point for discussion and work on Rust cryptography in general
-- Provide overall direction for cryptography in Rust by forstering
+- Provide overall direction for cryptography in Rust by fostering
   collaboration on an interoperable cryptographic ecosystem
 - Act as a resource for answering questions about the use of cryptography
   in Rust projects
