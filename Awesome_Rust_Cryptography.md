@@ -544,8 +544,7 @@ by large quantum computers.
 
 - [ml-kem](https://github.com/RustCrypto/KEMs/tree/master/ml-kem) Pure Rust
   implementation of the Module-Lattice-Based Key-Encapsulation Mechanism
-  standard (formerly known as Kyber) as described in the FIPS 203 Initial
-  Public Draft.
+  standard (formerly known as Kyber) as described in FIPS 203 (final).
 
 - [oqs](https://github.com/open-quantum-safe/liboqs-rust) Wrapper around
  Open-Quantum-Safe's liboqs cryptographic library.
