@@ -31,6 +31,7 @@ of preference.
 
 - [High-level Libraries](#high-level-libraries)
 - [Transport Encryption Libraries](#transport-encryption-libraries)
+- [Secure Messaging Protocols](#secure-messaging-protocols)
 - [Collections of Cryptographic Primitives](#collections-of-cryptographic-primitives)
 - [Traits for Cryptographic Primitives](#traits-for-cryptographic-primitives)
 - [Symmetric Cryptography](#symmetric-cryptography)
@@ -90,6 +91,20 @@ data-in-transit; i.e., network communications.
 
 - [webpki](https://github.com/briansmith/webpki) validates Web PKI (TLS/SSL)
  certificates
+
+## Secure Messaging Protocols
+
+[up](#table-of-contents)
+
+This section is for secure messaging protocols that transfer messages with end-to-end encryption (E2EE) and may use perfect forward secrecy and post-compromise security.
+
+- [OpenMLS](https://github.com/openmls/openmls/) IETF Messaging Layer Security (MLS) protocol designed for secure group messaging with forward secrecy, post-compromise security, and deniable authentication [RFC 9420](https://datatracker.ietf.org/doc/html/rfc9420).
+
+- [mls-rs](https://github.com/awslabs/mls-rs.git) IETF MLS protocol library that has been validated for conformance to the RFC 9420 specification but has not yet received a full security audit by a 3rd party.
+
+- [Matter protocol](https://github.com/project-chip/rs-matter) A secure application layer message protocol for devices, particularly home automation devices, that supports encryption, authentication, and privacy.
+
+- [vodozemac](https://github.com/matrix-org/vodozemac) An implementation of Olm (Double Ratchet) and Megolm cryptographic ratchets used in message based protocols. This crate has received one security [audit](https://matrix.org/media/Least%20Authority%20-%20Matrix%20vodozemac%20Final%20Audit%20Report.pdf) by [Least Authority](https://leastauthority.com/), with no significant findings.
 
 ## Collections of Cryptographic Primitives
 
