@@ -225,7 +225,7 @@ confidentiality and integrity of data.
  block ciphers with block size equal to 128 bits.
 
 - [chacha20poly1305](https://github.com/RustCrypto/AEADs/tree/master/chacha20poly1305)
- [![][audited-badge]](https://research.nccgroup.com/2020/02/26/public-report-rustcrypto-aes-gcm-and-chacha20poly1305-implementation-review/)
+ [![][audited-badge]](https://web.archive.org/web/20240108154854/https://research.nccgroup.com/wp-content/uploads/2020/02/NCC_Group_MobileCoin_RustCrypto_AESGCM_ChaCha20Poly1305_Implementation_Review_2020-02-12_v1.0.pdf)
  Pure Rust implementation of ChaCha20Poly1305 (RFC 8439): an Authenticated
  Encryption with Associated Data (AEAD) cipher amenable to fast,
  constant-time implementations in software.
