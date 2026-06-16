@@ -78,8 +78,9 @@ data-in-transit; i.e., network communications.
  [![][audited-badge]](https://cure53.de/pentest-report_rustls.pdf)
  Modern SSL/TLS library in Rust.
 
-- [snow](https://github.com/mcginty/snow) Pure Rust implementation of Trevor
- Perrin's [Noise Protocol](https://noiseprotocol.org).
+- [snow](https://github.com/mcginty/snow)
+ [![][audited-badge]](https://github.com/trailofbits/publications/blob/bf5f47b1b4a53560e36b81655142329751230883/reviews/2024-03-agilebits-snow-securityreview.pdf)
+ Pure Rust implementation of Trevor Perrin's [Noise Protocol](https://noiseprotocol.org).
 
 - [strobe-rs](https://github.com/rozbb/strobe-rs) Relatively barebones,
  `no_std` implementation of the [Strobe protocol
