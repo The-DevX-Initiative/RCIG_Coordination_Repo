@@ -92,6 +92,8 @@ data-in-transit; i.e., network communications.
 - [webpki](https://github.com/briansmith/webpki) validates Web PKI (TLS/SSL)
  certificates
 
+- [wtx](https://github.com/c410-f3r/wtx) TLS 1.3 client and server implementation [RFC-8446](https://datatracker.ietf.org/doc/html/rfc8446)
+
 ## Secure Messaging Protocols
 
 [up](#table-of-contents)
